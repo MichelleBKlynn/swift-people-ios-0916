@@ -41,7 +41,7 @@ class Person {
         } else {
             if ageInYears != nil {
                 ageInYears! += 1
-                bdayMessage = "HAPPY \(self.ageInYears!)TH BIRTHDAY, \(self.name.capitalized)!!!"
+                bdayMessage = "HAPPY \(self.ageInYears!)\(self.ageInYears!.ordinal()) BIRTHDAY, \(self.name.capitalized)!!!"
             }
         }
         
